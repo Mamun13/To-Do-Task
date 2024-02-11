@@ -6,11 +6,28 @@ const ToDoList = () => {
   return (
     <>
       <section className="main_todo">
-        <Col lg={8} className="bg-danger">
-          <div className="d-flex justify-content-center">
-            
+        <div className="container">
+          <div className="main">
+            <div className="todo-app">
+              <div className="app-title">
+                <h2>To-do app</h2>
+                <i className="fa-solid fa-book-bookmark"></i>
+              </div>
+              <div className="row">
+                <input
+                  type="text"
+                  id="input-box"
+                  placeholder="add your tasks"
+                  className="ps-4"
+                />
+                <button className="add_button">Add</button>
+              </div>
+              <ul className="list-group">
+                <li>mn</li>
+              </ul>
+            </div>
           </div>
-        </Col>
+        </div>
       </section>
     </>
   );
